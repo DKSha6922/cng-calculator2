@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNG Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>CNG Calculator</h1>
+        <form>
+          <div>
+            <label for="country">Country</label>
+            <input type="text" value="india" name="country" id="country" disabled/>
+          </div>
+          <div>
+            <label for="currency">Trip Distance (km)</label>
+            <input id="fuel" type="text"  name="currency" id="currency" />
+          </div>
+          <div>
+            <label for="distance">Fuel Efficiency</label>
+            <input id="efficiency" type="text" name="distance" id="distance" />
+          </div>
+          <div>
+            <label for="quantity">Gas/Fuel Price (per litr)</label>
+            <input id="price" type="text" name="quantity" id="quantity" />
+          </div>
+<p id="display">00</p>
+          <button id="btn">Calculate</button>
+        </form>
+      </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
